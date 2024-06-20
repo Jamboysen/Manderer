@@ -1,0 +1,45 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+#root {
+    height: 100vh;
+}
+
+/* sizing map container */
+
+.leaflet-container {
+    height: 100vh;
+}
+
+.button-container {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    z-index: 1000; /* Ensure it's above the map */
+  }
+  
+  .button-container button {
+    
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #000631;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .button-container button:hover {
+    background-color: #00477a;
+    color: rgb(255, 255, 255);
+  }
+  
