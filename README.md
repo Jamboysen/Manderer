@@ -6,4 +6,11 @@ https://www.youtube.com/watch?v=jufPO-r6bt0&list=PLSsAz5wf2lkK_ekd0J__44KG6QoXet
 
 **Leaflet Sample Demo**
 https://www.youtube.com/watch?v=jD6813wGdBA&t=715s
+</br>
 
+**Dependencies**</br>  
+npm install react  
+npm install geolocator  
+npm install react-leaflet  
+npm install react-dom  
+npm install leaflet  
